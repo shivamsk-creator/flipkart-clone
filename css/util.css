@@ -1,0 +1,105 @@
+
+body{
+    background-color: #f1f3f6;
+}
+
+/* To make content in center */
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Styling Button */
+.btn{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: #2875f0e5;
+}
+
+/* On Hovering on button change its colour  */
+.btn:hover{
+    background-color: #282bf0e5;
+}
+
+/* Cards Container Styling */
+.card-container{
+    height: 307px;
+    width: 90vw;
+    margin: 15px auto;
+    background-color: white;
+}
+
+.head-card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* Styling for Heading in cards */
+#bestincat{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 18px;
+}
+
+/* Styling for cards */
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: 8px 10px;
+    padding: 10px 15px;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+/* Styling for card */
+.card-items{
+    display: flex;
+    flex-direction: column;
+    height: 232px;
+    width: 240px;
+    /* border: 2px dotted blueviolet; */
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.card-items a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-items a img{
+    /* position: relative; */
+    height: 127px;
+}
+
+/* When we hover on picture it zoom ins little bit */
+.card-items a img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+/* CSS for product name or 1st line  */
+.prodname{
+    font-weight: 600;
+    font-size: large;
+}
+
+/* Styling for product price or 2nd line */
+.start-price{
+    color: green;
+    font-size: medium;
+    margin-top: 7px;
+}
+
+/* Styling for brands or the third line  */
+.brands{
+    color: grey;
+    font-size: smaller;
+    margin-top: 2px;
+}
