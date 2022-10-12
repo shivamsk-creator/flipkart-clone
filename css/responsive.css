@@ -24,6 +24,34 @@
         height: 40vh;
     }
 
+    .flex-all-center{
+        flex-direction: column;
+    }
+
+    footer{
+        height: 11vh;
+    }
+    .card-container{
+        height: 320px;
+    }
+
+    .card-items a img {
+        height: 95px;
+    }
+
+    #width-flask{
+        padding: 0px 32px;
+    }
+
+    #mobile-height-head-card{
+        padding: 8px 0px;
+    }
+
+    .bestincat-mobile{
+        width: 160px;
+        padding: 0px 0px 0px 5px;
+    }
+
 }
 
 /* @media screen and (min-width:1097px){
